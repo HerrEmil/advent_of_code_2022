@@ -1,0 +1,16 @@
+{
+  "name": "advent_of_code_2022",
+  "version": "1.0.0",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test:w": "mocha src/*.spec.mjs --parallel --watch --fgrep",
+    "test": "mocha src/*.spec.mjs"
+  },
+  "repository": "git@github.com:HerrEmil/advent_of_code_2022.git",
+  "author": "Emil Andersson <hello@herremil.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
+}
