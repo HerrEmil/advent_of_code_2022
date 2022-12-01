@@ -5,8 +5,8 @@ const readInput = (day) =>
 
 import * as day01 from "./01.mjs";
 const day01Data = day01.parseData(readInput(1));
-console.log(`Day 01, puzzle 1 answer: ${day01.part1(day01Data)}`); //
-console.log(`Day 01, puzzle 2 answer: ${day01.part2(day01Data)}`); //
+console.log(`Day 01, puzzle 1 answer: ${day01.part1(day01Data)}`); // 71124
+console.log(`Day 01, puzzle 2 answer: ${day01.part2(day01Data)}`); // 204639
 
 import * as day02 from "./02.mjs";
 const day02Data = day02.parseData(readInput(2));
