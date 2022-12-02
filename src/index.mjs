@@ -10,8 +10,8 @@ console.log(`Day 01, puzzle 2 answer: ${day01.part2(day01Data)}`); // 204639
 
 import * as day02 from "./02.mjs";
 const day02Data = day02.parseData(readInput(2));
-console.log(`Day 02, puzzle 1 answer: ${day02.part1(day02Data)}`); //
-console.log(`Day 02, puzzle 2 answer: ${day02.part2(day02Data)}`); //
+console.log(`Day 02, puzzle 1 answer: ${day02.part1(day02Data)}`); // 13924
+console.log(`Day 02, puzzle 2 answer: ${day02.part2(day02Data)}`); // 13448
 
 import * as day03 from "./03.mjs";
 const day03Data = day03.parseData(readInput(3));
