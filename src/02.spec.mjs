@@ -6,10 +6,10 @@ describe("Day 02 tests", () => {
 B X
 C Z`);
 
-  it("should ", () => {
+  it("should return total score from each game of rock paper scissors", () => {
     strictEqual(part1(data), 15);
   });
-  it("should ", () => {
+  it("should return total score from each game of rock paper scissors", () => {
     strictEqual(part2(data), 12);
   });
 });
