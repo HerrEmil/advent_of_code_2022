@@ -20,8 +20,8 @@ console.log(`Day 03, puzzle 2 answer: ${day03.part2(day03Data)}`); // 2716
 
 import * as day04 from "./04.mjs";
 const day04Data = day04.parseData(readInput(4));
-console.log(`Day 04, puzzle 1 answer: ${day04.part1(day04Data)}`); //
-console.log(`Day 04, puzzle 2 answer: ${day04.part2(day04Data)}`); //
+console.log(`Day 04, puzzle 1 answer: ${day04.part1(day04Data)}`); // 424
+console.log(`Day 04, puzzle 2 answer: ${day04.part2(day04Data)}`); // 804
 
 import * as day05 from "./05.mjs";
 const day05Data = day05.parseData(readInput(5));

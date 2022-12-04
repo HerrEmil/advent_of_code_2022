@@ -1,5 +1,5 @@
-import { strictEqual } from 'assert';
-import { part1, part2, parseData } from './01.mjs';
+import { strictEqual } from "assert";
+import { parseData, part1, part2 } from "./01.mjs";
 
 describe("Day 01 tests", () => {
   const testInput = `1000
@@ -19,11 +19,11 @@ describe("Day 01 tests", () => {
 
   it("should return the sum of calories of elf carrying the most", () => {
     const data = parseData(testInput);
-    strictEqual(part1(data), 24000)
+    strictEqual(part1(data), 24000);
   });
 
   it("should return the sum of calories of the three elves carrying the most", () => {
     const data = parseData(testInput);
-    strictEqual(part2(data), 45000)
+    strictEqual(part2(data), 45000);
   });
 });

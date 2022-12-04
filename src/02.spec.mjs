@@ -1,5 +1,5 @@
 import { strictEqual } from "assert";
-import { part1, part2, parseData } from "./02.mjs";
+import { parseData, part1, part2 } from "./02.mjs";
 
 describe("Day 02 tests", () => {
   const data = parseData(`A Y
