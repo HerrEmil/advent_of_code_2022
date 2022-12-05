@@ -25,8 +25,8 @@ console.log(`Day 04, puzzle 2 answer: ${day04.part2(day04Data)}`); // 804
 
 import * as day05 from "./05.mjs";
 const day05Data = day05.parseData(readInput(5));
-console.log(`Day 05, puzzle 1 answer: ${day05.part1(day05Data)}`); //
-console.log(`Day 05, puzzle 2 answer: ${day05.part2(day05Data)}`); //
+console.log(`Day 05, puzzle 1 answer: ${day05.part1(day05Data)}`); // QNNTGTPFN
+console.log(`Day 05, puzzle 2 answer: ${day05.part2(day05Data)}`); // GGNPJBTTR
 
 import * as day06 from "./06.mjs";
 const day06Data = day06.parseData(readInput(6));
