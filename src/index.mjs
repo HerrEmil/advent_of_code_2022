@@ -29,7 +29,7 @@ console.log(`Day 05, puzzle 1 answer: ${day05.part1(day05Data)}`); // QNNTGTPFN
 console.log(`Day 05, puzzle 2 answer: ${day05.part2(day05Data)}`); // GGNPJBTTR
 
 import * as day06 from "./06.mjs";
-const day06Data = day06.parseData(readInput(6));
+const day06Data = readInput(6);
 console.log(`Day 06, puzzle 1 answer: ${day06.part1(day06Data)}`); //
 console.log(`Day 06, puzzle 2 answer: ${day06.part2(day06Data)}`); //
 

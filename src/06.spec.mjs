@@ -1,13 +1,24 @@
 import { strictEqual } from "assert";
-import { parseData, part1, part2 } from "./06.mjs";
+import { part1, part2 } from "./06.mjs";
 
 describe("Day 06 tests", () => {
-  const data = parseData(``);
-
   it("should ", () => {
-    strictEqual(part1(1), 1);
+    strictEqual(part1("mjqjpqmgbljsphdztnvjfqwrcgsmlb"), 7);
   });
   it("should ", () => {
-    strictEqual(part2(1), 1);
+    strictEqual(part1("bvwbjplbgvbhsrlpgdmjqwftvncz"), 5);
+  });
+  it("should ", () => {
+    strictEqual(part1("nppdvjthqldpwncqszvftbrmjlhg"), 6);
+  });
+  it("should ", () => {
+    strictEqual(part1("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg"), 10);
+  });
+  it("should ", () => {
+    strictEqual(part1("zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw"), 11);
+  });
+
+  it("should ", () => {
+    strictEqual(part2("mjqjpqmgbljsphdztnvjfqwrcgsmlb"), 19);
   });
 });
