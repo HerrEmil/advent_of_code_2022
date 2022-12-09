@@ -45,8 +45,8 @@ console.log(`Day 08, puzzle 2 answer: ${day08.part2(day08Data)}`); // 574080
 
 import * as day09 from "./09.mjs";
 const day09Data = day09.parseData(readInput(9));
-console.log(`Day 09, puzzle 1 answer: ${day09.part1(day09Data)}`); //
-console.log(`Day 09, puzzle 2 answer: ${day09.part2(day09Data)}`); //
+console.log(`Day 09, puzzle 1 answer: ${day09.part1(day09Data)}`); // 5930
+console.log(`Day 09, puzzle 2 answer: ${day09.part2(day09Data)}`); // 2443
 
 import * as day10 from "./10.mjs";
 const day10Data = day10.parseData(readInput(10));
