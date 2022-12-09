@@ -30,13 +30,13 @@ console.log(`Day 05, puzzle 2 answer: ${day05.part2(day05Data)}`); // GGNPJBTTR
 
 import * as day06 from "./06.mjs";
 const day06Data = readInput(6);
-console.log(`Day 06, puzzle 1 answer: ${day06.part1(day06Data)}`); //
-console.log(`Day 06, puzzle 2 answer: ${day06.part2(day06Data)}`); //
+console.log(`Day 06, puzzle 1 answer: ${day06.part1(day06Data)}`); // 1100
+console.log(`Day 06, puzzle 2 answer: ${day06.part2(day06Data)}`); // 2421
 
 import * as day07 from "./07.mjs";
-const day07Data = day07.parseData(readInput(7));
-console.log(`Day 07, puzzle 1 answer: ${day07.part1(day07Data)}`); //
-console.log(`Day 07, puzzle 2 answer: ${day07.part2(day07Data)}`); //
+const getDay07Data = () => day07.parseData(readInput(7));
+console.log(`Day 07, puzzle 1 answer: ${day07.part1(getDay07Data())}`); // 1443806
+console.log(`Day 07, puzzle 2 answer: ${day07.part2(getDay07Data())}`); // 942298
 
 import * as day08 from "./08.mjs";
 const day08Data = day08.parseData(readInput(8));
