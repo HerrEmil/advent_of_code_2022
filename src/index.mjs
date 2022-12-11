@@ -56,8 +56,8 @@ ${day10.part2(day10Data)}`); // EKRHEPUZ
 
 import * as day11 from "./11.mjs";
 const day11Data = day11.parseData(readInput(11));
-console.log(`Day 11, puzzle 1 answer: ${day11.part1(day11Data)}`); //
-console.log(`Day 11, puzzle 2 answer: ${day11.part2(day11Data)}`); //
+console.log(`Day 11, puzzle 1 answer: ${day11.part1(day11Data)}`); // 56120
+console.log(`Day 11, puzzle 2 answer: ${day11.part2(day11Data)}`); // 24389045529
 
 import * as day12 from "./12.mjs";
 const day12Data = day12.parseData(readInput(12));
