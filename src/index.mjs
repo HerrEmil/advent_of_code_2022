@@ -61,8 +61,8 @@ console.log(`Day 11, puzzle 2 answer: ${day11.part2(day11Data)}`); // 2438904552
 
 import * as day12 from "./12.mjs";
 const day12Data = day12.parseData(readInput(12));
-console.log(`Day 12, puzzle 1 answer: ${day12.part1(day12Data)}`); //
-console.log(`Day 12, puzzle 2 answer: ${day12.part2(day12Data)}`); //
+console.log(`Day 12, puzzle 1 answer: ${day12.part1(day12Data)}`); // 120 too low, 368 too high
+console.log(`Day 12, puzzle 2 answer: ${day12.part2(1)}`); //
 
 import * as day13 from "./13.mjs";
 const day13Data = day13.parseData(readInput(13));
