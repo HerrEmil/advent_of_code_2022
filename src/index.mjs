@@ -66,7 +66,7 @@ console.log(`Day 12, puzzle 2 answer: ${day12.part2(1)}`); //
 
 import * as day13 from "./13.mjs";
 const day13Data = day13.parseData(readInput(13));
-console.log(`Day 13, puzzle 1 answer: ${day13.part1(day13Data)}`); //
+console.log(`Day 13, puzzle 1 answer: ${day13.part1(day13Data)}`); // 29141 too high
 console.log(`Day 13, puzzle 2 answer: ${day13.part2(day13Data)}`); //
 
 import * as day14 from "./14.mjs";
