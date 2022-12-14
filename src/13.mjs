@@ -13,8 +13,15 @@ const compareArrays = (leftValue, rightValue, isRightOrder) => {
 export const part1 = (pairs) => {
   const indexOfPairsInRightOrder = [];
   pairs.forEach(({ left, right }, pairIndex) => {
+    if (left.length < right.length) {
+      indexOfPairsInRightOrder.push(pairIndex + 1);
+      return;
+    }
+    if (right.length < left.length) {
+      return;
+    }
     let index = 0;
-    while (index <= left.length && index <= right.length) {
+    while (index < left.length && index < right.length) {
       let leftValue = left[index];
       let rightValue = right[index];
 
