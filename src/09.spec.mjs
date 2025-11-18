@@ -1,4 +1,5 @@
-import { strictEqual } from "assert";
+import { describe, it } from "node:test";
+import { strictEqual } from "node:assert";
 import { parseData, part1, part2 } from "./09.mjs";
 
 describe("Day 09 tests", () => {
